@@ -1,0 +1,79 @@
+/* ============================== CSS Variables ============================== */
+
+:root {
+  /* Typography */
+  --fz-largest: 2.441rem;
+  --fz-larger: 1.953rem;
+  --fz-large: 1.563rem;
+  --fz-medium: 1.25rem;
+  --fz-normal: 1rem;
+  --fz-small: 0.8rem;
+  --fz-smaller: 0.64rem;
+
+  --fw-bold: 900;
+  --fw-semi-bold: 700;
+  --fw-medium: 500;
+  --fw-normal: 400;
+  --fw-thin: 300;
+
+  /* Sizes */
+  --pr-largest: 10rem;
+  --pr-larger: 8rem;
+  --pr-large: 6rem;
+  --pr-medium: 4rem;
+  --pr-normal: 2rem;
+  --pr-small: 1rem;
+  --pr-smaller: 0.5rem;
+
+  --pe-largest: 10em;
+  --pe-larger: 8em;
+  --pe-large: 6em;
+  --pe-medium: 4em;
+  --pe-normal: 2em;
+  --pe-small: 1em;
+  --pe-smaller: 0.5em;
+}
+
+@media screen and (max-width: 768px) {
+  :root {
+    /* Typography */
+    --fz-largest: 2.3rem;
+    --fz-larger: 1.83rem;
+    --fz-large: 1.45rem;
+    --fz-medium: 1.15rem;
+    --fz-normal: 0.9rem;
+    --fz-small: 0.7rem;
+    --fz-smaller: 0.53rem;
+  }
+}
+
+/* ============================== HTML Reseting ============================== */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
